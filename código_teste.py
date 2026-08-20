@@ -36,7 +36,7 @@ valor3 = 10
 
 total = valor1**2 + valor2**2 + valor3**2
 print(total)
-"""
+
 
 #----------------------------------------------------------
 # EXERCÍCIO SEÇÃO 4 - Estruturas Lógicas e Condicionais
@@ -73,3 +73,17 @@ if num % 2 == 0:
     print(f"{num} é um numero par")
 else:
     print(f"{num} é um numero impar")
+"""
+
+#----------------------------------------------------------
+# EXERCÍCIO SEÇÃO 5 - Estruturas de Repetição
+#----------------------------------------------------------
+
+# 1
+for numero in range(1, 18):
+    if numero % 3 == 0:
+        print(numero)
+
+# 2
+
+while
