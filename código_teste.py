@@ -229,13 +229,12 @@ print(f"O(a) aluno(a) com a maior nota foi {aluno_maior_nota}, tirando {maior_no
 
 dia_da_semana = ('segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo')
 
-numero = int(input("Digite um número de 1 a 7:"))
-if numero < 7:
+numero = int(input("Digite um número de 1 a 7: "))
+
+if 1 <= numero <= 7:
     dia_escolhido = dia_da_semana[numero - 1]
-    print(dia_escolhido[numero])
-elif numero == 7:
-    dia_escolhido = dia_da_semana[numero - 1]
-    print(dia_escolhido[numero])
+    print(dia_escolhido)  # Imprime o dia inteiro, evitando tentar acessar um índice interno da string
 else:
-    numero = int(input("Digite um número de 1 a 7:"))
+    print("Número inválido.")
+    numero = int(input("Digite um número de 1 a 7: "))
 
